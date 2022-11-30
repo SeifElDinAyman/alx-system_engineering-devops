@@ -1,2 +1,2 @@
 #!/bin/bash
-mv *[:upper:]  mkdir /tmp/u
+mv -i *[:upper:]  /tmp/u
