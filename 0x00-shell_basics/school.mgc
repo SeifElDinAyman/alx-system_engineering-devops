@@ -1,2 +1,2 @@
 #!/bin/bash
-file -C School SCHOOL
+file -C -type -m  School SCHOOL
