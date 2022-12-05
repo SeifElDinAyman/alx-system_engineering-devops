@@ -1,0 +1,32 @@
+total 22
+drwxr-xr-x 1 eagle 197609    0 Dec  5 20:22 .
+drwxr-xr-x 1 eagle 197609    0 Dec  5 19:25 ..
+-rw-r--r-- 1 eagle 197609 4096 Dec  5 19:55 .7-file.swp
+-rwxr-xr-x 1 eagle 197609   34 Dec  5 19:25 0-hello_world
+-rwxr-xr-x 1 eagle 197609   30 Dec  5 19:25 1-confused_smiley
+-rwxr-xr-x 1 eagle 197609   30 Dec  5 19:25 2-hellofile
+-rwxr-xr-x 1 eagle 197609   41 Dec  5 19:25 3-twofiles
+-rwxr-xr-x 1 eagle 197609   31 Dec  5 19:25 4-lastlines
+-rwxr-xr-x 1 eagle 197609   31 Dec  5 19:25 5-firstlines
+-rwxr-xr-x 1 eagle 197609   44 Dec  5 19:36 6-third_line
+-rwxr-xr-x 1 eagle 197609   73 Dec  5 20:19 7-file
+-rwxr-xr-x 1 eagle 197609   37 Dec  5 20:22 8-cwd_state
+-rw-r--r-- 1 eagle 197609   11 Dec  5 19:25 README.md
+-rw-r--r-- 1 eagle 197609  774 Dec  5 19:25 iacta
+-rw-r--r-- 1 eagle 197609    0 Dec  5 20:22 ls_cwd_content
+total 26
+drwxr-xr-x 1 eagle 197609    0 Dec  5 20:22 .
+drwxr-xr-x 1 eagle 197609    0 Dec  5 19:25 ..
+-rw-r--r-- 1 eagle 197609 4096 Dec  5 19:55 .7-file.swp
+-rwxr-xr-x 1 eagle 197609   34 Dec  5 19:25 0-hello_world
+-rwxr-xr-x 1 eagle 197609   30 Dec  5 19:25 1-confused_smiley
+-rwxr-xr-x 1 eagle 197609   30 Dec  5 19:25 2-hellofile
+-rwxr-xr-x 1 eagle 197609   41 Dec  5 19:25 3-twofiles
+-rwxr-xr-x 1 eagle 197609   31 Dec  5 19:25 4-lastlines
+-rwxr-xr-x 1 eagle 197609   31 Dec  5 19:25 5-firstlines
+-rwxr-xr-x 1 eagle 197609   44 Dec  5 19:36 6-third_line
+-rwxr-xr-x 1 eagle 197609   73 Dec  5 20:19 7-file
+-rwxr-xr-x 1 eagle 197609   37 Dec  5 20:22 8-cwd_state
+-rw-r--r-- 1 eagle 197609   11 Dec  5 19:25 README.md
+-rw-r--r-- 1 eagle 197609  774 Dec  5 19:25 iacta
+-rw-r--r-- 1 eagle 197609  829 Dec  5 20:22 ls_cwd_content
