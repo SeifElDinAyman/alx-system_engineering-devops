@@ -1,5 +1,5 @@
-total 26
-drwxr-xr-x 1 eagle 197609    0 Dec  5 20:28 .
+total 23
+drwxr-xr-x 1 eagle 197609    0 Dec  5 20:48 .
 drwxr-xr-x 1 eagle 197609    0 Dec  5 19:25 ..
 -rw-r--r-- 1 eagle 197609 4096 Dec  5 19:55 .7-file.swp
 -rwxr-xr-x 1 eagle 197609   34 Dec  5 19:25 0-hello_world
@@ -10,7 +10,8 @@ drwxr-xr-x 1 eagle 197609    0 Dec  5 19:25 ..
 -rwxr-xr-x 1 eagle 197609   31 Dec  5 19:25 5-firstlines
 -rwxr-xr-x 1 eagle 197609   44 Dec  5 19:36 6-third_line
 -rwxr-xr-x 1 eagle 197609   73 Dec  5 20:19 7-file
--rwxr-xr-x 1 eagle 197609   36 Dec  5 20:28 8-cwd_state
+-rwxr-xr-x 1 eagle 197609   36 Dec  5 20:48 8-cwd_state
+-rwxr-xr-x 1 eagle 197609   40 Dec  5 20:47 9-duplicate_last_line
 -rw-r--r-- 1 eagle 197609   11 Dec  5 19:25 README.md
--rw-r--r-- 1 eagle 197609  774 Dec  5 19:25 iacta
--rw-r--r-- 1 eagle 197609    0 Dec  5 20:28 ls_cwd_content
+-rw-r--r-- 1 eagle 197609 1769 Dec  5 20:47 iacta
+-rw-r--r-- 1 eagle 197609    0 Dec  5 20:48 ls_cwd_content
