@@ -1,46 +1,25 @@
 #!/usr/bin/python3
-'''
-A module containing functions for working with the Reddit API.
-'''
+"""
+Query Reddit API for number of subscribers for a given subreddit
+"""
 import requests
 
-BASE_URL = 'https://www.reddit.com'
-'''
-Reddit's base API URL.
-'''
 
 def number_of_subscribers(subreddit):
-    '''
-    Retrieves the number of subscribers in a given subreddit.
+    """
+        return number of subscribers for a given subreddit
+        return 0 if invalid subreddit given
+    """
+    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
 
-    Args:
-        subreddit (str): The name of the subreddit.
+    # get user agent
+    # https://stackoverflow.com/questions/10606133/ -->
+    # sending-user-agent-using-requests-library-in-python
+    headers = requests.utils.default_headers()
+    headers.update({'User-Agent': 'My User Agent 1.0'})
 
-    Returns:
-        int: The number of subscribers for the subreddit, or 0 if invalid.
-    '''
-    api_headers = {
-        'Accept': 'application/json',
-        'User-Agent': ' '.join([
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-            'AppleWebKit/537.36 (KHTML, like Gecko)',
-            'Chrome/97.0.4692.71',
-            'Safari/537.36',
-            'Edg/97.0.1072.62'
-        ])
-    }
-    res = requests.get(
-        '{}/r/{}/about/.json'.format(BASE_URL, subreddit),
-        headers=api_headers,
-        allow_redirects=False
-    )
-    if res.status_code == 200:
-        return res.json()['data']['subscribers']
-    elif res.status_code == 404:
-        # Subreddit not found (invalid subreddit)
-        print(f"Subreddit '{subreddit}' not found. Returning 0.")
+    r = requests.get(url, headers=headers).json()
+    subscribers = r.get('data', {}).get('subscribers')
+    if not subscribers:
         return 0
-    else:
-        # Other error occurred
-        print(f"Error: {res.status_code}. Returning 0.")
-        return 0
+    return subscribers
