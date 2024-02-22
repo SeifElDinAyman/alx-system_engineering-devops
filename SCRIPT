@@ -1,0 +1,8 @@
+#!/bin/bash
+git config --global user.email "SeifElDinAyman77@gmail.com"
+git config --global user.name "Seif El-Din"
+git config user.name
+git config user.email
+git add .
+git commit -m "MSG"
+git push
